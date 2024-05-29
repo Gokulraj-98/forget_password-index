@@ -10,7 +10,7 @@ dotenv.config()
 const router = express.Router()
 uuidv4();
 const app = express()
-const PORT = 7000
+const PORT = 8000
 
 //Inbuilt middleware =>  say data is in json => converting body to json
 app.use(express.json())
